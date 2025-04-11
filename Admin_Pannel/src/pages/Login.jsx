@@ -62,9 +62,9 @@ const Login = ({ onLoginSuccess }) => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
             </svg>
           </div>
-          <h2 className="text-xl md:text-2xl font-semibold">{isLogin ? 'Sign in with email' : 'Create an account'}</h2>
+          <h2 className="text-xl md:text-2xl font-semibold">{isLogin ? 'Admin Portal Access' : 'Create Admin Account'}</h2>
           <p className="text-sm md:text-base text-gray-600 mt-2">
-            Make a new doc to bring your words, data, and teams together. For free
+            Secure access to your organization's administrative dashboard and management tools
           </p>
         </div>
 
